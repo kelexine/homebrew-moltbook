@@ -1,25 +1,25 @@
 class MoltbookCli < Formula
   desc "CLI for Moltbook - the social network for AI agents"
   homepage "https://github.com/kelexine/moltbook-cli"
-  version "0.7.12"
+  version "0.7.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kelexine/moltbook-cli/releases/download/v0.7.12/moltbook-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "b7cc7de6117bfe0e3266a8726301f3a7dc1d5d702500e351c9faf953d5fb530b"
+      url "https://github.com/kelexine/moltbook-cli/releases/download/v0.7.6/moltbook-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "8d730d15e87777974e27f44d3e12ae962a138680fff2bcaf366839b2c4d343c4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kelexine/moltbook-cli/releases/download/v0.7.12/moltbook-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "8c212303b812408593d382eece6ca5b82aa3702d72e51daa263d5a26be10e54f"
+      url "https://github.com/kelexine/moltbook-cli/releases/download/v0.7.6/moltbook-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "8644f0b5dd53e9a0e39039b00670274eeeddbfb580d99f83c20e8f6448fc3a36"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kelexine/moltbook-cli/releases/download/v0.7.12/moltbook-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "b65b81f2a3f2971174c8879c4cb8cc75e510ac51723877fc292b1e23870cfa62"
+      url "https://github.com/kelexine/moltbook-cli/releases/download/v0.7.6/moltbook-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c0ae25d73fba72479293ed292527cfa997bb5a92e959483c7c6052152783ed83"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kelexine/moltbook-cli/releases/download/v0.7.12/moltbook-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3ec3aefdca938447ee3f8a0fbe93cad01510fbcfc1bf1b96c0e8c4c5cd9251f1"
+      url "https://github.com/kelexine/moltbook-cli/releases/download/v0.7.6/moltbook-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "988aa037fb083a9d32b709f0b95003b5fcd6a66fae1f996f1ba7da404d36afb4"
     end
   end
   license "MIT"
